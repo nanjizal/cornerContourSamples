@@ -1,0 +1,13 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <meta title="CornerContourLimeTest" package="net.nanjizal.cornerContourLimeTest" version="1.0.0" company="Nanjizal" />
+    <app main="cornerContourSamples.hxLime.SvgExample" path="Export" file="bin.hxLime.SvgExample" />
+    <window width="1024" height="768" antialiasing="4"/>
+    <source path="src" />
+    <haxelib name="lime" />
+    <haxelib name="fracs"/>
+    <haxelib name="justPath"/>
+    <haxelib name="cornerContour"/>
+    <set name="BUILD_DIR" value="bin/hxLime" />
+</project>

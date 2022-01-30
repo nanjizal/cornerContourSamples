@@ -1,0 +1,16 @@
+# untested has lost my wxwidget setup, but based on previous version.
+-lib hxWidgets
+-lib cornerContour	
+-lib justPath
+-lib fracs
+
+-cp src/
+-main cornerContourSamples.hxWXhaxeui.SvgExample
+-cpp bin/hxWXhaxeui
+
+--macro include("hx.widgets")
+--macro include("wx.widgets")
+
+--next
+-cmd cd bin/hxWXhaxeui/
+-cmd ./Main

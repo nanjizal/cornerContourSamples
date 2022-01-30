@@ -1,0 +1,26 @@
+-cp src
+-js bin/hxCanvas/test.js
+-lib fracs
+-lib justPath
+-lib cornerContour
+
+#-lib pallette
+#-lib htmlHelper
+#-lib hxPolyK
+#-lib poly2trihx 
+#-lib hxGeomAlgo
+
+
+-main cornerContourSamples.hxCanvas.SvgExample
+
+-D js-flatten 
+#-D trilateral_debug
+#-D trilateral_debugPoints
+-dce full
+#--no-traces
+--next
+
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><script src="test.js"></script></body></html>' >bin/hxCanvas/index.html
+# open html on mac os.
+-cmd cd bin/hxCanvas/
+-cmd open index.html

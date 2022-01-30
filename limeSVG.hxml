@@ -1,0 +1,2 @@
+-cmd npx kill-port 3001
+-cmd lime test projectLime.xml html5 --port=3001

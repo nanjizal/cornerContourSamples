@@ -1,0 +1,2 @@
+-cmd npx kill-port 3002
+-cmd lime test projectFlixel.xml html5 --port=3002

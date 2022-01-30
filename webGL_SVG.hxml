@@ -1,0 +1,17 @@
+-cp src
+
+-js bin/hxWebGL/test.js
+-lib fracs
+-lib justPath
+-lib cornerContour
+
+-main cornerContourSamples.hxWebGL.SvgExample
+-D js-flatten 
+-dce full
+#--no-traces
+--next
+
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><script src="test.js"></script></body></html>' >bin/hxWebGL/index.html
+# open html on mac os.
+-cmd cd bin/hxWebGL/
+-cmd open index.html
