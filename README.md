@@ -8,9 +8,9 @@ Work in progress.
 
 - [canvas](https://nanjizal.github.io/cornerContourSamples/bin/hxCanvas/)
 - [webGL](https://nanjizal.github.io/cornerContourSamples/bin/hxWebGL/)
-- [Flixel](https://nanjizal.github.io/cornerContourSamples/bin/hxFlixel/bin/)
+- [Flixel](https://nanjizal.github.io/cornerContourSamples/bin/hxFlixel/html5/bin/)
 - [Heaps](https://nanjizal.github.io/cornerContourSamples/hxHeaps/)
-- [Lime](https://nanjizal.github.io/cornerContourSamples/hxLime/)
+- [Lime](https://nanjizal.github.io/cornerContourSamples/hxLime/html5/bin/)
 - [Ceramic](https://nanjizal.github.io/cornerContourSamples/hxCeramic/)
 - [Gluon] not yet included
 - [Clay] not yet included
