@@ -1,0 +1,10 @@
+app:
+    package: nanjizal.cornerContourSample.svgExample
+    name: svgExample
+    displayName: svgExample
+    author: Nanjizal
+    version: '0.0.1'
+    libs:
+        - justPath: git:https://github.com/nanjizal/justPath.git
+        - cornerContour: git:https://github.com/nanjizal/cornerContour.git
+        - fracs: git:https://github.com/nanjizal/fracs.git
