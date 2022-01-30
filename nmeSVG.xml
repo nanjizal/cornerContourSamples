@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="cornerContour SVG example with NME" package="net.nanjizal.SvgExample" version="0.0.1" company="Nanjizal" />
+
+	<!-- output -->
+	<app main="cornerContourSamples.hxNME.SvgExample" path="bin/hxNME/" file="SvgExample" />
+
+	<!-- window properties -->
+	<window background="#000000" fps="60" />
+	<window width="1024" height="768"  background="0x181818" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="4" if="cpp" />
+	
+	<set name="SWF_VERSION" value="11.2" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src/" />
+	
+	<haxelib name="nme" />
+    <haxelib name="lime" />
+    <haxelib name="fracs"/>
+    <haxelib name="justPath"/>
+    <haxelib name="cornerContour"/>
+    
+	<!-- optimize output
+	<haxeflag name="-dce full" /> -->
+
+</project>
