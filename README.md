@@ -11,6 +11,7 @@ Work in progress.
 - [Flixel](https://nanjizal.github.io/cornerContourSamples/bin/hxFlixel/html5/bin/)
 - [Heaps](https://nanjizal.github.io/cornerContourSamples/bin/hxHeaps/)
 - [Lime](https://nanjizal.github.io/cornerContourSamples/bin/hxLime/html5/bin/)
+- [NME] not yet included
 - [Ceramic] implemented but not yet worked out best way to integrate structure
 - [Gluon] not yet included
 - [Clay] not yet included
