@@ -1,0 +1,12 @@
+{
+    "name"         : "cornerContourSamples",
+    "url"          : "https://github.com/nanjizal/cornerContourSamples#cornerContourSamples",
+    "license"      : "MIT",
+    "tags"         : ["cross", "drawing","2d","WebGL" ],
+    "description"  : "cornerContour samples",
+    "version"      : "0.0.1-alpha",
+    "releasenote"  : "See https://github.com/nanjizal/cornerContourSamples/blob/master/CHANGELOG.md",
+    "contributors" : ["Nanjizal"],
+    "classPath"    : "src",
+    "dependencies" : {}
+}
