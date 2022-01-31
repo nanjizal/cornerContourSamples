@@ -1,0 +1,2 @@
+-cmd npx kill-port 3003
+-cmd lime test projectOpenFL.xml html5 --port=3003

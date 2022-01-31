@@ -1,0 +1,38 @@
+{
+	luxe:{
+		window: {
+			width:1024,
+			height:768,
+			title:'cornerContour Svg sample using Luxe',
+			fullscreen:false,
+			resizable:true,
+			borderless:false
+		}
+	},
+
+	project : {
+		name : 'SvgExmaple',
+		version : '0.0.0',
+		author : 'Nanjizal',
+		app : {
+			main: 'cornerContourSamples.hxLuxe.SvgExample',
+			name:'SvgExample',
+			output: 'bin/hxLuxe',
+			codepaths: 'src',
+			package : 'net.nanjizal.SvgExample'
+		},
+		build : {
+			dependencies : {
+				luxe : '*',
+                justPath: '*',
+                fracs: '*',
+                cornerContour: '*'
+			}
+		},
+
+        files : {
+          assets : 'assets/',
+          index : { path:'custom_index.html => index.html', template:'project', not_listed:true }
+        }
+	}
+}

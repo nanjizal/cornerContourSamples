@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <meta title="cornerContour SVG OpenFL example" package="net.nanjizal.SvgExample" version="0.0.1" company="Nanjizal" />
+    <app main="cornerContourSamples.hxOpenFL.SvgExample" path="bin/hxOpenFL" file="SvgExample" />
+    <window width="1024" height="768" antialiasing="4"/>
+    <source path="src" />
+    <haxelib name="lime"/>
+    <haxelib name="openfl" />
+    <haxelib name="fracs"/>
+    <haxelib name="justPath"/>
+    <haxelib name="cornerContour"/>
+</project>

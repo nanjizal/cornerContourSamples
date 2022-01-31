@@ -1,0 +1,3 @@
+# currently too many changes in haxe for Luxe to work!!
+# what port?
+-cmd flow run --project luxeSVG.flow web
